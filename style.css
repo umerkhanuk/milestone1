@@ -84,4 +84,7 @@ button{
         width: 70%;
         margin: 40px 15%;
     }
+    *{
+        font-weight: 300;
+    }
   }
