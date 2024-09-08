@@ -87,4 +87,7 @@ button{
     *{
         font-weight: 300;
     }
+    .row1 h3{
+        font-size: 25px !important;
+    }
   }
