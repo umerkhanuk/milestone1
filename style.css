@@ -52,7 +52,7 @@ td{
     float: left;
 }
 .row1_inner image{
-    border-radius: 100px;
+    border-radius: 5%;
 }
 .box{
     width: 50%;
