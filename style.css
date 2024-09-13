@@ -1,33 +1,46 @@
 *{
     margin: 0 auto;
     padding: 0;
-    color: #fff;
     font-family: 'Franklin Gothic Medium';
     list-style: none;
     font-weight: 100;
 }
 .main{
     width: 50%;
-    /* margin: 0px auto; */
-    float: left;
-    margin: 40px 25%;
+    margin: 40px auto;
     border: 1px solid;
-    padding: 10px;
+    padding: 10px 40px;
+    background-color: #5e1735;
+}
+.row1{
+    background: url(images/7493376.jpg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+    background-color: #9a9a9a;
+}
+
+.row3{
+    width: 100%;
+    display: inline-block;
+    margin: auto;    
+}
+.row3 h3{
+    font-size: 20px;
+    color: #fff;
 }
 body{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .wrapper{
     width: 100%;
-    /* max-width: 1120px; */
+    max-width: 1120px;
 }
-.row1{
-    width: 100%;
-    height: 150px;
-    background-color: #000000;
-}
+
 .row2,.row3{
-    float: left;
+    width: 100%;
+    display: inline-block;
+    /* float: left; */
 }
 .row3{
     margin-top: 20px;
@@ -45,14 +58,17 @@ body{
 
 }
 td{
-    border: 1px solid #000000;
+    padding: 5px 10px 5px 10px;
 }
 .row1_inner{
     width: 100%;
     float: left;
 }
 .row1_inner img{
-    border-radius: 5%;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    border: 4px solid #4969d2;
 }
 .box{
     width: 50%;
@@ -80,10 +96,10 @@ button{
 
 }
 @media only screen and (max-width: 600px) {
-    .main{
+    /* .main{
         width: 70%;
         margin: 40px 15%;
-    }
+    } */
     *{
         font-weight: 300;
     }
@@ -91,3 +107,17 @@ button{
         font-size: 25px !important;
     }
   }
+label{
+    color: #fff;
+    font-size: 18px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    max-width: 300px;
+}
+form input{
+    margin-top: 9px;
+    font-size: 18px;
+    padding: 5px 19px;
+}
